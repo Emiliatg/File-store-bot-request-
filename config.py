@@ -10,28 +10,28 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5896985949:AAHeUi0QbDMUnbJR6p8gfIBKVTk2uc5AG-k")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6508756342:AAHqGSAX0AXXc5zQAL0SvhccpRjzHfe7wco")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "13296527"))
+APP_ID = int(os.environ.get("APP_ID", "25271844"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6ff44fffc149a6dc599a5d2eaeb8873c")
+API_HASH = os.environ.get("API_HASH", "4cebb9b44a78851588f0d48f2e68a386")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001848530957"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002092926342"))
 
-CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", "-1002016069936"))
-CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", "-1002038898655"))
+CHANNEL_ONE = int(os.environ.get("CHANNEL_ONE", ""))
+CHANNEL_TWO = int(os.environ.get("CHANNEL_TWO", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1891736799"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5164928761"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://bacikov626:bacikov626@cluster0.koqrr3r.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Emiliatg:Emiliatg@cluster0.c0a2uor.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
